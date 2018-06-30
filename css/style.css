@@ -13,13 +13,18 @@
 	width: 100px;
 	margin-top:16px;
 	margin-bottom:16px;
+	margin-left: 50px;
 }
 .navbar-list{
 	margin-top: 16px;
 	margin-bottom: 16px;
+	margin-right: 200px;
 }
 .navbar-list .list-item{
 	display: inline;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	vertical-align: middle;
 }
 .navbar-list .list-item a{
 	text-decoration: none;
@@ -106,4 +111,14 @@ input:hover, select:hover{
 .form-div{
 	margin-top: 24px;
 	margin-bottom: 16px;
+}
+
+
+
+@media only screen and (max-width: 1023px) {
+	.navbar-list{
+		margin-top: 16px;
+		margin-bottom: 16px;
+		margin-right: 0;
+	}
 }
