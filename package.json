@@ -1,0 +1,20 @@
+{
+  "name": "currencyconverter",
+  "version": "1.0.0",
+  "description": "Simple currency converter application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mangi Elijah",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "browserify": "^16.2.2",
+    "gulp-connect": "^5.5.0",
+    "i": "^0.3.6",
+    "idb": "^2.1.3"
+  }
+}

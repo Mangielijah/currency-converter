@@ -1,0 +1,109 @@
+*{
+	margin-top:0;
+	margin-bottom: 0;
+	margin-left:0;
+	margin-right: 0;
+	font-family: 'Roboto Mono', monospace;
+}
+#main-header{
+	padding: 0;
+}
+
+.logo{
+	width: 100px;
+	margin-top:16px;
+	margin-bottom:16px;
+}
+.navbar-list{
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+.navbar-list .list-item{
+	display: inline;
+}
+.navbar-list .list-item a{
+	text-decoration: none;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-right: 12px;
+	padding-left: 12px;
+	margin:0;
+	color:#9504d8;
+	font-size: 24px;
+}
+.navbar-list .list-item a:hover{
+	border-bottom-color: #9504d8;
+	border-bottom: 3px solid;
+
+}
+
+#jumbo{
+	background-color: #2b003f;
+	padding-top:100px;
+	padding-bottom: 100px;
+	color:#fff;
+}
+.jumbo-one{
+	font-size: 72px;
+}
+.display{
+	margin-top:16px;
+	margin-bottom: 16px;
+	display: none;
+}
+#box-amount{
+	font-size: 30px;
+}
+#box-amount #from{
+	color: #bbb;
+	font-size: 24px;
+}
+#box-amount #to{
+	font-size: 40px;
+}
+#currency{
+	padding-bottom: 8px;
+	padding-top: 8px;
+	font-size: 14px;
+}
+#unit-rate{
+	font-size: 10px;
+}
+input{
+	height: 32px;
+	padding-left: 8px;
+	padding-right: 8px;
+	font-size: 16px;
+	border:none;
+	border-radius: 1px;
+	border-bottom: 3px solid #9504d8;
+}
+select{
+	width: 250px;
+	height: 36px;
+	border:none;
+	border-radius: 1px;
+	border-bottom: 3px solid #9504d8;
+}
+input:hover, select:hover{
+	border-bottom: 3px solid #07ba81;	
+}
+#btn{
+	height: 36px;
+	width: 50px;
+	background-color: #9504d8;
+	color:#fff;
+	border: none;
+	border-radius: 1px;
+	font-weight: bold;
+	font-size: 16px;
+}
+#btn:hover{
+	color:#9504d8;
+	background-color: #fff;
+	border-left: 3px solid #07ba81;
+}
+.form-div{
+	margin-top: 24px;
+	margin-bottom: 16px;
+}
