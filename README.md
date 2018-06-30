@@ -1,5 +1,5 @@
-#Google Africa Challange Scholarship
+# Google Africa Challange Scholarship
 
-##Project: Currency Converter
+## Project: Currency Converter
 
-**Project Description**
+** Project Description **
