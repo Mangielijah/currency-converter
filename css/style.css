@@ -112,8 +112,36 @@ input:hover, select:hover{
 	margin-top: 24px;
 	margin-bottom: 16px;
 }
-
-
+#btnAdd{
+	position: fixed;
+	top: 0;
+	right: 0;
+	background-color: #2b003f;
+	color: #fff;
+	border-color: none;
+	border-style: none;
+	border-bottom-left-radius:35px; 
+	font-style: italic;
+	font-size: 16px;
+	padding: 12px;
+	text-align: center;
+}
+#btnAdd:hover{
+	background-color: #fff;
+	color: #2b003f;
+	border-color: #2b003f;
+	border-style: solid;
+	border-right: 2px;
+	border-top: 2px;
+}
+footer{
+	padding-top: 8px;
+	color: #2b003f;
+}
+a{
+	text-decoration: none;
+	color:#07ba81;
+}
 
 @media only screen and (max-width: 1023px) {
 	.navbar-list{
