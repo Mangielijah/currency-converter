@@ -2,4 +2,4 @@
 
 ## Project: Currency Converter
 
-** Project Description **
+**Project Description**
