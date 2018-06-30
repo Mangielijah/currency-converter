@@ -3,16 +3,21 @@
 ## Project: Currency Converter
 
 **Project Description**
+```
+Building a currency converter application that works online aswell as offline when connection ceases.
+The application uses the free currency converter api to pull information of the differenct currencies as well as
+using the free currency converter api to get exchanges rates.
 
-	Freecurrencyconverterapi is an API that converts one currency to another and returns result in json format.
-	You are required to implement a front-end application that takes advantage of the functionalities Freecurrencyconverterapi provides. The application should be able convert one currency to another while offline or online.
-
-	Requirements:
-
-	All Javascript MUST be written in >=ES6
-	Use Github repository for version control.
-	Host a working version of the application on Github-Pages.
-	The application must make use of the following
-		> Service Worker
-		> Cache API
-		> IndexedDB
+This Application is written in **Javascript >= ES6** and it makes use of the following:
+	- Service Worker
+		Use to interfere request sent to the server
+	- Cache Api
+		Used for caching the application file such as
+		- Template
+		- Style-sheet
+		- Fonts
+		- Images
+		**for Offline use**
+	- IndexedDB
+		Used for Storing the different currencies aswell as the exchange rates to be used when the user goes offline
+```
