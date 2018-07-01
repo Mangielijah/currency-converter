@@ -15,10 +15,9 @@ const btnInstall = document.querySelector('#btnAdd');
 
 
 window.addEventListener('load', (e) => {
-
 if('serviceWorker' in navigator){
 
-	navigator.serviceWorker.register('./sw.js', {scope: '/'})
+	navigator.serviceWorker.register('./currency-converter/sw.js', {scope: '/'})
 
 			 .then((reg) => {
 
