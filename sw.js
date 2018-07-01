@@ -4,8 +4,8 @@ const cacheName = 'version2';
 const defaultContent = [
 	'./',
 	'./js/app.js',
-	'./images/logo.png',
 	'./css/style.css',
+	'./images/logo.png',
 	'https://fonts.googleapis.com/css?family=Roboto+Mono:300',
 	'https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css',
 ]

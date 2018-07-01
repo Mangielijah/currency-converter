@@ -2,7 +2,7 @@
   "name": "Currency Converter",
   "short_name": "Xconv",
   "theme_color": "#9504d8",
-  "background_color": "#2b003f",
+  "background_color": "#f4f4f4",
   "display": "standalone",
   "orientation": "landscape",
   "Scope": "/",
